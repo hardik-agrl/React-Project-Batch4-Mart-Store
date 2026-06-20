@@ -69,3 +69,20 @@ h1 {
 .buy-btn:hover {
   background: #0056b3;
 }
+
+.status-message {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.status-message.error {
+  color: #b00020;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}

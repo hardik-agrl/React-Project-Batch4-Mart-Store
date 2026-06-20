@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
+import Card from '../Card';
 
 const API_BASE = '/api/v1';
 
-const App = () => {
+const Products = () => {
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [loading, setLoading] = useState(true);
@@ -106,6 +106,7 @@ const App = () => {
       </div>
     </div>
   );
-};
+  
+}
 
-export default App;
+export default Products
